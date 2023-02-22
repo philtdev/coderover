@@ -1,0 +1,80 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$base-font-family: 'Red Hat Mono', monospace;
+$heading-font-family: 'Prompt', sans-serif;
+
+$blue: #0066cc;
+$red: #be1e2d;
+
+$grey-dark: #333;
+$grey-light: #bcbec0;
+
+$black: #000;
+$white: #fff;
+
+$brand-color: $blue;
+$text-color: $white;
+
+@import "minima";
+
+body {
+    background-color: $grey-dark;
+}
+
+a {
+    &:hover,
+    &:visited {
+        color: $brand-color;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.contact-list,
+.social-media-list {
+    margin-bottom: 0;
+
+    li {
+        padding: 3px 0;
+    }
+}
+
+.footer-col {
+    flex: 1 1 0;
+}
+
+.footer-col-title {
+    font-size: 16px;
+}
+
+.footer-col-wrapper {
+    color: $grey-dark;
+    @media (min-width: 600px) {
+        display: flex;
+    }
+}
+
+.site-footer {
+    background-color: $grey-light;
+    color: $grey-dark;
+}
+
+.site-header {
+    background-color: $blue;
+    border-bottom-color: $red;
+    border-bottom-width: 5px;
+    border-top: none;
+    color: $white;
+}
+
+.site-title {
+    margin: 1rem 0;
+}

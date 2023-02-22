@@ -1,0 +1,13 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      <picture>
+        <source srcset="{{ "/assets/images/coderover-logo-242x80.png" | relative_url }}" type="image/png" media="(min-width: 768px)">
+        <img alt="{{ site.title | escape }}" src="{{ "/assets/images/coderover-logo-170x50.png" | relative_url }}">
+      </picture>
+    </a>
+  </div>
+</header>

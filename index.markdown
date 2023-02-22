@@ -3,9 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Front-end Web Development
 ---
-Hello! I'm Philip Tomlinson, a front-end web developer specialising in languages and frameworks such as <strong>HTML5</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Blazor</strong>, <strong>Bootstrap</strong>, <strong>Sass</strong>, <strong>Gulp</strong>, <strong>Git</strong>, and many more.
+<h2>By Philip Tomlinson</h2>
 
-I work remotely from my home office for a range of clients on a freelance basis, and operate through my own company, <strong>Coderover Ltd</strong>.
+I'm Philip Tomlinson - owner of Coderover. I'm a front-end web developer that works on a freelance and remote basis from my own office.
 
-If you are interested in using my skillset for your web application project, you can view my <a href="/assets/philip-tomlinson-profile.pdf">profile</a> as a PDF, or <a href="mailto:hello@coderover.co.uk">email me</a> to get in touch.
+I specialise in languages and frameworks such as <strong>HTML5</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Blazor</strong>, <strong>Bootstrap</strong>, <strong>Sass</strong>, <strong>Gulp</strong>, <strong>Git</strong>, and many more.
+
+Take a look at <a href="{{ "/assets/documents/philip-tomlinson-profile.pdf" | relative_url }}" target="_blank">my profile</a> and, if you think I could help you with your web application project, please <a href="mailto:hello@coderover.co.uk">email me</a> to get in touch!
