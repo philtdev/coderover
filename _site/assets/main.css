@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Red Hat Mono", monospace;
   color: #fff;
-  background-color: #fdfdfd;
+  background-color: #be1e2d;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -257,7 +257,7 @@ table td {
     position: absolute;
     top: 9px;
     right: 15px;
-    background-color: #fdfdfd;
+    background-color: #be1e2d;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
     text-align: right;
@@ -662,6 +662,33 @@ h2 {
   font-size: 1.25em;
 }
 
+.site-title {
+  margin: 1rem 0;
+}
+
+.site-header {
+  background-color: #0066cc;
+  border-bottom-color: #be1e2d;
+  border-bottom-width: 5px;
+  border-top: none;
+  color: #fff;
+}
+.site-header .wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    top: 25px;
+  }
+  .site-nav .menu-icon > svg {
+    fill: #fff;
+  }
+}
+
 .contact-list,
 .social-media-list {
   margin-bottom: 0;
@@ -693,16 +720,9 @@ h2 {
   color: #333;
 }
 
-.site-header {
-  background-color: #0066cc;
-  border-bottom-color: #be1e2d;
-  border-bottom-width: 5px;
-  border-top: none;
-  color: #fff;
-}
-
-.site-title {
-  margin: 1rem 0;
+.avatar {
+  float: left;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

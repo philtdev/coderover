@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: $grey-dark;
+}
+
+a {
+    &:hover,
+    &:visited {
+        color: $brand-color;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.site-title {
+    margin: 1rem 0;
+}
+
+.site-header {
+    background-color: $blue;
+    border-bottom-color: $red;
+    border-bottom-width: 5px;
+    border-top: none;
+    color: $white;
+
+    .wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+
+.site-nav {
+    @include media-query($on-palm) {
+        top: 25px;
+
+        .menu-icon > svg {
+            fill: $white;
+          }
+    }
+}
+
+.contact-list,
+.social-media-list {
+    margin-bottom: 0;
+
+    li {
+        padding: 3px 0;
+    }
+}
+
+.footer-col {
+    flex: 1 1 0;
+}
+
+.footer-col-title {
+    font-size: 16px;
+}
+
+.footer-col-wrapper {
+    color: $grey-dark;
+    @media (min-width: 600px) {
+        display: flex;
+    }
+}
+
+.site-footer {
+    background-color: $grey-light;
+    color: $grey-dark;
+}
+
+.avatar {
+    float: left;
+    margin-right: 1rem;
+}
