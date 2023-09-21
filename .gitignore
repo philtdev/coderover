@@ -3,3 +3,4 @@ _minima-2.5.1
 .jekyll-cache
 .jekyll-metadata
 vendor
+*.code-workspace
