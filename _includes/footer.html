@@ -7,23 +7,21 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+
+<a href="{{ "/assets/images/philtdev-avatar-1280x1280.jpg"  | relative_url }}" target="_blank">
+  <img alt="Philip Tomlinson" class="avatar" src="/assets/images/philtdev-avatar-100x100.jpg">
+</a>
         {%- include social.html -%}
         <ul class="contact-list">
-          <li><a href="{{ "/assets/documents/philip-tomlinson-profile-v1.pdf" | relative_url }}" target="_blank">My profile</a></li>
+          <li><a href="{{ site.profile_document }}" target="_blank">My profile</a></li>
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
-      </div>
 
-      <div class="footer-col">
-        <p>{{- site.description | escape -}}</p>
-        <p>
-          <small>
-            &copy; 2023 Coderover Ltd.<br>
-            Company number <a href="https://find-and-update.company-information.service.gov.uk/company/08809636">08809636</a>.
-          </small>
-        </p>
+        <small>
+          &copy; 2023 Coderover Ltd. Company number <a href="https://find-and-update.company-information.service.gov.uk/company/08809636">08809636</a>.
+        </small>
       </div>
     </div>
 

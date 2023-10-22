@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Coderover
-email: hello@coderover.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  At Coderover, Philip Tomlinson offers freelance web development services on a remote basis to businesses and agencies. Specialisations include HTML5, CSS, JavaScript, Sass, Bootstrap, Blazor, Git, Gulp, and many more.
+  I’m Philip Tomlinson, a freelance web developer. I work on a remote basis for clients anywhere in the world through my company, Coderover Ltd. I specialise in Blazor, HTML5, CSS3, Sass, Bootstrap, JavaScript, Gulp, and Git.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.coderover.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "en_GB"
 github_username:  philtdev
 linkedin_username: philtdev
+profile_document: "/assets/documents/philip-tomlinson-profile.pdf?v=1"
 
 # Build settings
 theme: minima
